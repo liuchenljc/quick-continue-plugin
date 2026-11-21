@@ -15,7 +15,7 @@
   },
   "plugins": [
     {
-      "name": "@local/quick-continue",
+      "name": "dsh-quick-continue",
       "title": {
         "en": "Quick continue",
         "zh": "快捷继续"
@@ -30,17 +30,17 @@
       "repository": { "url": "https://github.com/liuchenljc/quick-continue-plugin" },
       "metadata": {
         "category": "conversation",
-        "keywords": ["continue", "quick reply", "buttons", "composer", "one-click"]
+        "keywords": ["dsh", "continue", "quick reply", "buttons", "composer", "one-click"]
       },
       "versions": [
         {
           "version": "1.2.0",
-          "publishTimestamp": 1795247104,
+          "publishTimestamp": 1795273475,
           "engines": { "dsh": ">=0.2.2-rc.2" },
           "source": {
             "type": "git",
             "url": "https://github.com/liuchenljc/quick-continue-plugin",
-            "commit": "417fecfaadc7ca096dca155b096142dbc28200a0"
+            "commit": "0e03a7c2e6d9009d50d438c924297b6b601b5051"
           }
         }
       ]
