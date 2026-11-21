@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "title": {
+    "en": "liuchenljc's DSH plugins",
+    "zh": "liuchenljc 的 DSH 插件"
+  },
+  "description": {
+    "en": "Personal DeepSeek Harness plugin index maintained by liuchenljc, hosted on GitHub.",
+    "zh": "liuchenljc 维护的个人 DeepSeek Harness 插件索引，托管在 GitHub。"
+  },
+  "metadata": {
+    "categories": {
+      "conversation": { "title": { "en": "Conversation", "zh": "会话" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@local/quick-continue",
+      "title": {
+        "en": "Quick continue",
+        "zh": "快捷继续"
+      },
+      "description": {
+        "en": "Adds Continue / A / B / C quick-send buttons under the composer, and injects a system-prompt section so every model ends replies with A/B/C or confirmation options by default — one click sends the reply.",
+        "zh": "在输入框下方添加「继续 / A / B / C」一键发送按钮；并通过系统提示词让所有模型的回复结尾默认带上 A/B/C 或确认类快捷选项，点击按钮即可回复，免去手动输入。"
+      },
+      "icon": "icon.svg",
+      "author": "liuchenljc",
+      "homepage": "https://github.com/liuchenljc/quick-continue-plugin#readme",
+      "repository": { "url": "https://github.com/liuchenljc/quick-continue-plugin" },
+      "metadata": {
+        "category": "conversation",
+        "keywords": ["continue", "quick reply", "buttons", "composer", "one-click"]
+      },
+      "versions": [
+        {
+          "version": "1.2.0",
+          "publishTimestamp": 1795247104,
+          "engines": { "dsh": ">=0.2.2-rc.2" },
+          "source": {
+            "type": "git",
+            "url": "https://github.com/liuchenljc/quick-continue-plugin",
+            "commit": "417fecfaadc7ca096dca155b096142dbc28200a0"
+          }
+        }
+      ]
+    }
+  ]
+}
