@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Quick continue",
+    "description": "Adds Continue / A / B / C quick-send buttons under the composer, and injects a system-prompt section so every model ends replies with A/B/C or confirmation options by default — one click sends the reply."
+  }
+}
