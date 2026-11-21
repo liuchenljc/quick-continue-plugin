@@ -1,4 +1,4 @@
 - insert:
     - id: quick-continue
-      name: '@local/quick-continue'
+      name: dsh-quick-continue
       config: {}

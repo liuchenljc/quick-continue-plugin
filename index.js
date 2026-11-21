@@ -16,7 +16,7 @@ const QUICK_REPLY_PROMPT = [
 
 export function apply(ctx) {
   ctx.systemPrompt.section({
-    name: 'local:quick-continue-options',
+    name: 'dsh-quick-continue-options',
     order: 10300,
     interpolate: false,
     text: QUICK_REPLY_PROMPT,

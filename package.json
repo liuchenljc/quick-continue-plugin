@@ -1,5 +1,5 @@
 {
-  "name": "@local/quick-continue",
+  "name": "dsh-quick-continue",
   "version": "1.2.0",
   "private": true,
   "type": "module",

@@ -11,6 +11,18 @@ DeepSeek Harness（DSH）插件：在网页输入框下方加一排**一键快�
 
 ## 安装
 
+**方式一：插件市场（推荐）**
+
+在 DSH 的 **插件 → 发现** 页添加索引源：
+
+```
+https://raw.githubusercontent.com/liuchenljc/quick-continue-plugin/main/market-index.json
+```
+
+然后在列表中找到「快捷继续」，点安装即可。
+
+**方式二：手动**
+
 1. 下载本仓库（`git clone` 或 Code → Download ZIP 后解压）
 2. 在 DSH 的插件管理中安装该目录
 3. 刷新网页即可看到按钮；Host 侧提示词需重启 DSH 生效

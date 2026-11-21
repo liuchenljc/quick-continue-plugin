@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/quick-continue',
+  id: 'dsh-quick-continue',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
