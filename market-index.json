@@ -10,37 +10,55 @@
   },
   "metadata": {
     "categories": {
-      "conversation": { "title": { "en": "Conversation", "zh": "会话" } }
+      "conversation": {
+        "title": {
+          "en": "Conversation",
+          "zh": "会话"
+        }
+      }
     }
   },
   "plugins": [
     {
       "name": "dsh-quick-continue",
       "title": {
-        "en": "Quick continue",
-        "zh": "快捷继续"
+        "en": "Quick reply buttons",
+        "zh": "快捷回复按钮"
       },
       "description": {
-        "en": "Adds Continue / A / B / C quick-send buttons under the composer, and injects a system-prompt section so every model ends replies with A/B/C or confirmation options by default — one click sends the reply.",
-        "zh": "在输入框下方添加「继续 / A / B / C」一键发送按钮；并通过系统提示词让所有模型的回复结尾默认带上 A/B/C 或确认类快捷选项，点击按钮即可回复，免去手动输入。"
+        "en": "A customizable row of one-click reply buttons under the composer. A click queues the text as the next message without touching your draft, and an injected system-prompt section makes every reply end with a matching A/B/C option line.",
+        "zh": "在输入框下方加一排可自定义的一键回复按钮，点一下按队列投递文字、不覆盖你正在写的草稿；同时注入系统提示词，让每条回复结尾都带一行对应的 A/B/C 选项，按钮与选项始终对得上。"
       },
       "icon": "icon.svg",
       "author": "liuchenljc",
       "homepage": "https://github.com/liuchenljc/quick-continue-plugin#readme",
-      "repository": { "url": "https://github.com/liuchenljc/quick-continue-plugin" },
+      "repository": {
+        "url": "https://github.com/liuchenljc/quick-continue-plugin"
+      },
       "metadata": {
         "category": "conversation",
-        "keywords": ["dsh", "continue", "quick reply", "buttons", "composer", "one-click"]
+        "keywords": [
+          "dsh",
+          "continue",
+          "quick reply",
+          "buttons",
+          "composer",
+          "one-click",
+          "system prompt",
+          "options"
+        ]
       },
       "versions": [
         {
-          "version": "1.2.0",
-          "publishTimestamp": 1795273475,
-          "engines": { "dsh": ">=0.2.2-rc.2" },
+          "version": "1.3.0",
+          "publishTimestamp": 1795352898,
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          },
           "source": {
             "type": "git",
             "url": "https://github.com/liuchenljc/quick-continue-plugin",
-            "commit": "0e03a7c2e6d9009d50d438c924297b6b601b5051"
+            "commit": "__PENDING__"
           }
         }
       ]
