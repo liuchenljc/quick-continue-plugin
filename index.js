@@ -1,10 +1,21 @@
-/** Host half: a system-prompt section making every model end replies with quick-reply options. */
+/**
+ * Host half of dsh-quick-continue.
+ *
+ * The Client half owns the button row and sends with
+ * `session.prompt(content, 'queue')`. This half supplies the other side of the
+ * loop: a system-prompt section that makes every model end its reply with one
+ * short option line, so the buttons and the reply always agree on A/B/C.
+ *
+ * Both halves are independent: with the Client half disabled the prompt section
+ * still standardises reply endings, and with this half disabled the buttons
+ * still send their configured text.
+ */
 export const inject = ['systemPrompt']
 
 const QUICK_REPLY_PROMPT = [
   '# 快捷回复约定（用户的输入框下方有一键按钮）',
   '',
-  '用户已安装「继续 / A / B / C / 你来定」快捷发送按钮：点击按钮即直接发送对应文字，无需打字。为配合这一交互，你的每条回复都遵守：',
+  '用户的输入框下方有一排「一键快捷回复按钮」（默认是 继续 / A / B / C / 你来定，用户可以自己增删改）。点一下按钮，对应文字会直接作为下一条消息发出，不经过打字。为配合这个交互：',
   '',
   '1. 回复主体完成后，最后单独一行给出简短的快捷选项行，格式如 `A：选项一 B：选项二 C：选项三`，每个选项不超过约 10 个字。',
   '2. 需要用户选择或确认时，用 A/B/C 字母选项；需要用户让你接着做时，用「继续」；不要把选项埋进长段落。',
