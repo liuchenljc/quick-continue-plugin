@@ -58,7 +58,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/liuchenljc/quick-continue-plugin",
-            "commit": "__PENDING__"
+            "commit": "535fda102b857f9f643821dd277b2c4d16f1bd07"
           }
         }
       ]
